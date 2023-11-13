@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Adicione seus estilos personalizados aqui */
+
+/* Estilos gerais */
+/* Estilo de fundo para todas as páginas */
+.bg-image {
+    background-image: url('imagens/consolesantigos.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantém a imagem fixa mesmo ao rolar a página */
+    color: #ffffff; /* Cor do texto para garantir visibilidade na imagem */
+    height: 100vh; /* Adicione isso para ocupar a altura total da tela */
+    width: 100%; /* Adicione isso para ocupar a largura total */
+}
+
+body {
+    padding-top: 56px; /* Adaptação para a barra de navegação fixa no topo */
+}
+/* Barra de navegação */
+.navbar {
+    background-color: #343a40; /* Cor de fundo da barra de navegação */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Cor do texto dos links na barra de navegação */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #28a745; /* Cor do texto dos links ao passar o mouse */
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #4e247e; /* Cor de fundo do botão primário */
+    border-color: #416a96; /* Cor da borda do botão primário */
+}
+
+.btn-primary:hover {
+    background-color: #050791; /* Cor de fundo do botão primário ao passar o mouse */
+    border-color: #6010e0; /* Cor da borda do botão primário ao passar o mouse */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Cor de fundo do botão secundário */
+    border-color: #6c757d; /* Cor da borda do botão secundário */
+}
+
+.btn-secondary:hover {
+    background-color: #545b62; /* Cor de fundo do botão secundário ao passar o mouse */
+    border-color: #545b62; /* Cor da borda do botão secundário ao passar o mouse */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Cor de fundo do botão de perigo */
+    border-color: #dc3545; /* Cor da borda do botão de perigo */
+}
+
+.btn-danger:hover {
+    background-color: #bd2130; /* Cor de fundo do botão de perigo ao passar o mouse */
+    border-color: #bd2130; /* Cor da borda do botão de perigo ao passar o mouse */
+}
+.nav-link{
+    color: #1b1c75;
+}
+/* Formulários */
+.form-label {
+    color: #fdfdfd; /* Cor do rótulo do formulário */
+}
+
+.form-control {
+    border-radius: 0; /* Remova a borda arredondada dos campos de formulário */
+}
+
+/* Outras classes do Bootstrap */
+.mt-5 {
+    margin-top: 3rem !important; /* Adaptação da margem superior */
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important; /* Adaptação da margem superior */
+}
+
+.mt-3 {
+    margin-top: 1rem !important; /* Adaptação da margem superior */
+}
+
+/* Adaptação para a barra de navegação fixa no topo */
+@media (min-width: 992px) {
+    body {
+        padding-top: 68px;
+    }
+}
+
+/* Adaptação do tamanho da fonte para telas menores */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

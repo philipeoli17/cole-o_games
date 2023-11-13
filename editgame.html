@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Jogo</title>
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-image">
+
+    <div class="container mt-5">
+        <h1 class="text-center">Editar Jogo</h1>
+        <form id="edit-game-form">
+            <label for="editGameName" class="form-label">Nome do Jogo:</label>
+            <input type="text" id="editGameName" class="form-control" required><br>
+            <label for="editPlatform" class="form-label">Plataforma:</label>
+            <input type="text" id="editPlatform" class="form-control" required><br>
+            <label for="editGenre" class="form-label">Gênero:</label>
+            <input type="text" id="editGenre" class="form-control" required><br>
+            <label for="editReleaseDate" class="form-label">Data de Lançamento:</label>
+            <input type="date" id="editReleaseDate" class="form-control" required><br>
+            <label for="editPrice" class="form-label">Valor Pago:</label>
+            <input type="number" id="editPrice" class="form-control" required><br>
+        </form>
+        <button id="saveBtn" class="btn btn-primary">Salvar Alterações</button>
+        <button id="cancelBtn" class="btn btn-secondary">Cancelar</button>
+        <button id="logoffBtn" class="btn btn-danger">Logoff</button>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="editgame.js"></script>
+</body>
+
+</html>
+
